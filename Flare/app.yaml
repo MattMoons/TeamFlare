@@ -13,8 +13,8 @@ handlers:
   upload: www/index.html
   
 - url: /(.*)
- static_files: www/\1
- upload: www/(.*)
+  static_files: www/\1
+  upload: www/(.*)
 
 - url: /bootstrap
   static_dir: bootstrap
