@@ -12,9 +12,9 @@ handlers:
   static_files: index.html
   upload: index.html
   
-- url: /(.*)
-  static_files: /\1
-  upload: /(.*)
+- url: /assets/(.*)
+  static_files: /assets/\1
+  upload: /assets/(.*)
 
 - url: /bootstrap
   static_dir: bootstrap
