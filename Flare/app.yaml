@@ -11,13 +11,9 @@ handlers:
 - url: /
   static_files: index.html
   upload: index.html
-  
-- url: /assets/(.*)
-  static_files: /assets/\1
-  upload: /assets/(.*)
 
-- url: /bootstrap
-  static_dir: bootstrap
+- url: /assets
+  static_dir: assets
 
 - url: /.*
   script: main.app
